@@ -1,0 +1,376 @@
+@import url("https://use.typekit.net/oym6koi.css");
+
+/* -------- STRUCTURE -------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+header {
+  margin: 20px 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+main {
+  margin: 20px;
+}
+
+section {
+  padding: 0 10px;
+}
+
+nav {
+  font-family: "sofia-pro", "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  width: 100%;
+  border-bottom: 2px solid rgb(113, 113, 113);
+  margin: 0px;
+}
+
+/* ------------ FLEXBOX ------------ */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.group-reverse {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+#reservations .group,
+#tables .group {
+  gap: 10px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.group-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.group-col {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.no-gap {
+  gap: 0px;
+}
+
+.reservation {
+  flex: 2;
+  border-bottom: 2px solid #000000;
+}
+
+.table {
+  flex: 1;
+  border-bottom: 2px solid #000000;
+}
+
+.item {
+  flex: 1;
+  margin: 0px;
+}
+
+.centered {
+  align-self: center;
+}
+
+.item-col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.item-double {
+  flex: 2;
+}
+
+.item-triple {
+  flex: 3;
+}
+
+.item-quad {
+  flex: 4;
+}
+
+/* ------------ BUTTONS ------------ */
+
+button {
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "sofia-pro", "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+.button-link {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  font-family: "sofia-pro", "brandon-grotesque", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #c7c7c7;
+  text-transform: uppercase;
+  transition-duration: 0.4s;
+}
+
+button .button-link:hover {
+  background: #ffffff;
+  color: #000000;
+}
+
+button:hover {
+  background: #ffffff;
+  color: #000000;
+  box-shadow: inset 0px 0px 0px 2px #000;
+}
+
+.black {
+  background: #000000;
+}
+
+.black-text {
+  color: #000;
+}
+
+.finish {
+  background: #c7c7c7;
+  color: #000;
+}
+
+/* ----------- TYPOGRAPHY ----------- */
+
+h1 {
+  font-family: "sofia-pro", "Times New Roman", serif;
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+}
+
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: "sofia-pro", "Times New Roman", serif;
+  color: #000000;
+}
+
+h2 {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 15px;
+}
+
+h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.table p {
+  font-style: bold;
+}
+
+a {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+}
+
+a:active,
+a:hover {
+  color: #961b4e;
+}
+
+.reservation a:link,
+.reservation a:visited {
+  color: #000000;
+}
+
+.reservation a:hover,
+.reservation a:active {
+  color: #fff;
+}
+
+.alert {
+  font-family: "sofia-pro", "Times New Roman", serif;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: #fa1900;
+}
+
+.inline {
+  display: inline;
+}
+
+.magenta {
+  color: #961b4e;
+}
+
+/* -------- FORM -------- */
+
+form label {
+  font-family: "sofia-pro", "Times New Roman", serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  margin: 5px 0 20px 0;
+  padding: 10px;
+  border: 3px solid #000000;
+  border-radius: 5px;
+  font-family: "sofia-pro", "Times New Roman", serif;
+  font-size: 25px;
+  color: #000000;
+  outline: none;
+  resize: none;
+}
+
+fieldset {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* ------------ DESKTOP ------------ */
+
+@media all and (min-width: 900px) {
+  main {
+    margin: 40px;
+  }
+
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .group-reverse {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .group-row {
+    gap: 15px;
+  }
+
+  #reservations .item {
+    align-self: center;
+  }
+
+  #tables {
+    margin-left: 15px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  a {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 35px;
+    text-align: start;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
