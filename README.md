@@ -10,7 +10,7 @@
 * <strong>Free Up Tables on Completion:</strong> When a reservation is completed, the system automatically frees up the table, ensuring efficient use of restaurant resources.
 
 ### Live Application
-You can access the live application by following this link: [Restaurant Reservation System](https://capstone-restaurant-reservation-sysytem.onrender.com)
+You can access the live application by following this link: [Restaurant Reservation System](https://capstone-restaurant-reservation-sysytem-obql.onrender.com)
 
 ### Dashboard
 <img width="1703" alt="Screenshot 2023-09-08 at 3 35 12 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/e0691be6-fbed-474e-94ff-d62c54d62789">
