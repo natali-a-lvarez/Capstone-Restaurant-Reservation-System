@@ -13,16 +13,16 @@
 You can access the live application by following this link: [Restaurant Reservation System](https://capstone-restaurant-reservation-sysytem-obql.onrender.com)
 
 ### Dashboard
-<img width="1703" alt="Screenshot 2023-09-08 at 3 35 12 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/e0691be6-fbed-474e-94ff-d62c54d62789">
+<img width="1707" alt="Screenshot 2023-09-19 at 4 52 31 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/d1327316-149a-470e-ba2a-a3fee8631669">
 
 ### Search
-<img width="1701" alt="Screenshot 2023-09-08 at 3 45 19 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/ef0e91a6-e24a-4753-b6fa-1f0b5199380e">
+<img width="1696" alt="Screenshot 2023-09-19 at 4 53 00 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/08292b58-6504-4401-90ca-4b3353303b5b">
 
 ### New Reservation
-<img width="1664" alt="Screenshot 2023-09-08 at 3 47 03 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/6528a3d1-0f94-46fb-9a93-c1cf982ea3c9">
+<img width="1690" alt="Screenshot 2023-09-19 at 4 53 47 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/a907499d-66d2-4518-9901-ef2485af11e3">
 
 ### New Table
-<img width="1693" alt="Screenshot 2023-09-08 at 3 49 20 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/646e47c6-064a-4cd0-a2d5-3e6fc30afd7c">
+<img width="1699" alt="Screenshot 2023-09-19 at 4 54 07 PM" src="https://github.com/natali-a-lvarez/Capstone-Restaurant-Reservation-System/assets/112902224/0ec3a4dd-ed48-4adc-b3ba-cc363ee747a2">
 
 ### API
 Request | Path | Description
